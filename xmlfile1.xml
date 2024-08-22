@@ -1,0 +1,12 @@
+<?xml version ="1.0" encoding="UTF-8"?>
+<!DOCTYPE address[
+<!ELEMENT address (name,company,phone)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT company (#PCDATA)>
+<!ELEMENT phone (#PCDATA)>
+]>
+<address>
+<name>Shreya</name>
+<company>ABC</company>
+<phone>1234567890</phone>
+</address>

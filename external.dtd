@@ -1,0 +1,13 @@
+<?xml version ="1.0" standalone ="no"?>
+<!DOCTYPE address SYSTEM"address.dtd">
+<address>
+<name>xyz</name>
+<company>NIET</comapny>
+<phone>6573548957</phone>
+</address>
+<address class="dtd">
+<!ELEMENT address (name,company,phone)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT company (#PCDATA)>
+<!ELEMENT phone (#PCDATA)>
+</address>
